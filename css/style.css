@@ -143,12 +143,13 @@ a:active, a:visited, a:focus {
 	background-color: #fff;
 	color: #646464;
 }
-.modal img {
-	width: 100%;
+.modal-content h4 {
+	font-weight: 300;
+	font-size: 2.5rem;
 }
-.modal-title {
-	font-weight: 800;
-	font-size: 2rem;
+.modal-content p {
+	font-size: 1.4rem;
+	padding: 0;
 }
 .close {
 	background-color: transparent;
@@ -160,14 +161,14 @@ a:active, a:visited, a:focus {
 }
 .modal-btn {
 	display: inline-block;
-	color: #333;
+	color: #fff;
 	border: 1px solid #333;
 	padding: 10px 20px;
 	border-radius: 5px;
 }
 .modal-btn:hover {
-	background-color: #333;
-	color: #fff;
+	background-color: #fff;
+	color: #333;
 	text-decoration: none;
 }
 @media (min-width: 0px) and (max-width: 767px) {
